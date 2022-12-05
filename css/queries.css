@@ -124,6 +124,7 @@ Instead, 1rem = 1em = 16px */
   /* Mobile Navigation */
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -140,7 +141,7 @@ Instead, 1rem = 1em = 16px */
     justify-content: center;
     transition: all 0.5s ease-in;
 
-    /* -- Hide navigation -- */
+    /* Hide navigation */
 
     /* Hide visually */
     opacity: 0;
